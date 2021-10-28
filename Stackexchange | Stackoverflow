@@ -1,0 +1,26 @@
+// ==UserScript==
+// @name         Debloat Stackexchange/Stackoverflow
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  Make stackoverflow great again
+// @author       You
+// @require      https://code.jquery.com/jquery-3.6.0.min.js
+// @match        http*://*stackexchange.com/*
+// @match        http*://*stackoverflow.com/*
+// @run-at       document-end
+// @grant        none
+// ==/UserScript==
+
+// Annoying cookies reminder blocking answer
+jQuery('.ff-sans').remove();
+
+// Shitty sidebar
+jQuery('.left-sidebar').remove();
+
+// Some bullshit idc to check again and see what it was
+jQuery('.s-sidebarwidget__yellow').remove();
+
+// "About, Products, For Teams" and "Login in, Sign Up"
+jQuery('.list-reset').remove();
+
+jQuery('.site-footer--container').remove();
