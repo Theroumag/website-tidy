@@ -6,13 +6,14 @@
 // @author       You
 // @require      https://code.jquery.com/jquery-3.6.0.min.js
 // @match        http*://*stackexchange.com/*
-// @match        http*://*stackoverflow.com/*
-// @run-at       document-end
 // @grant        none
 // ==/UserScript==
 
 // Annoying cookies reminder blocking answer
 jQuery('.ff-sans').remove();
+
+// Sign up fuck advert bullshit
+jQuery('.js-dismissable-hero').remove();
 
 // Shitty sidebar
 jQuery('.left-sidebar').remove();
