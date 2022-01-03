@@ -6,6 +6,10 @@
 // @author       You
 // @require      https://code.jquery.com/jquery-3.6.0.min.js
 // @match        http*://*stackexchange.com/*
+// @match        http*://*.stackexchange.com/*
+// @match        http*://*stackoverflow.com/*
+// @match        http*://*.stackoverflow.com/*
+// @run-at       document-end
 // @grant        none
 // ==/UserScript==
 
@@ -14,6 +18,9 @@ jQuery('.ff-sans').remove();
 
 // Sign up fuck advert bullshit
 jQuery('.js-dismissable-hero').remove();
+
+// How is this relevant to my question -_-
+jQuery('.photo-of-the-week').remove();
 
 // Shitty sidebar
 jQuery('.left-sidebar').remove();
