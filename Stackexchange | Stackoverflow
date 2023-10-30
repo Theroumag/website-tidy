@@ -16,16 +16,16 @@
 // Annoying cookies reminder blocking answer
 jQuery('.ff-sans').remove();
 
-// Sign up fuck advert bullshit
+// Sign up advert
 jQuery('.js-dismissable-hero').remove();
 
 // How is this relevant to my question -_-
 jQuery('.photo-of-the-week').remove();
 
-// Shitty sidebar
+// Sidebar
 jQuery('.left-sidebar').remove();
 
-// Some bullshit idc to check again and see what it was
+// ?? Not helpful
 jQuery('.s-sidebarwidget__yellow').remove();
 
 // "About, Products, For Teams" and "Login in, Sign Up"
