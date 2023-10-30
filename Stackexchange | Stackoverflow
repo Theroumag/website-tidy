@@ -19,7 +19,7 @@ jQuery('.ff-sans').remove();
 // Sign up advert
 jQuery('.js-dismissable-hero').remove();
 
-// How is this relevant to my question -_-
+// ?? Not helpful
 jQuery('.photo-of-the-week').remove();
 
 // Sidebar
