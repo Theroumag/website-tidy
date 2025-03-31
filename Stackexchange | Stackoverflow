@@ -32,3 +32,6 @@ jQuery('.s-sidebarwidget__yellow').remove();
 jQuery('.list-reset').remove();
 
 jQuery('.site-footer--container').remove();
+
+// Remove "#hot-network-questions"
+jQuery("#sidebar").remove();
